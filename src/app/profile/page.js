@@ -7,7 +7,7 @@ import axios from "axios";
 import QRCodeGenerator from "../components/QRCodeGenerator";
 import { useParams } from "next/navigation";
 
-const page = () => {
+const Profile = () => {
 
   const params = useParams();
   
@@ -194,4 +194,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Profile;

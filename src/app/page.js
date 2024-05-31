@@ -5,7 +5,7 @@ import { UserAuth } from './context/AuthContext';
 import Link from 'next/link';
 
 
-function Business() {
+function Home() {
 
   const params = useParams();
     
@@ -40,4 +40,4 @@ function Business() {
   )
 }
 
-export default Business
+export default Home
